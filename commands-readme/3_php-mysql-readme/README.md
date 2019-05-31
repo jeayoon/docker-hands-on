@@ -4,6 +4,8 @@
 
 #### Docker PHP-MySQ 構成図
 
+![php-mysql-docker](https://user-images.githubusercontent.com/17561411/58700875-54c8cb80-83dc-11e9-8322-85f65d1d4a31.png)
+
 #### 1. 前作業したcontainerを全部削除する
 
 ```
