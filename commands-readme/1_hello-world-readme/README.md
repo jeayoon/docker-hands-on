@@ -1,8 +1,8 @@
-# PHP commands
+# Hello world commands
 
-## Docker PHP
+## Docker Hello world
 
-#### Docker php 構成図
+#### Docker Hello world 構成図
 
 ![hello-world-readme](https://user-images.githubusercontent.com/17561411/58769469-6976b080-85e2-11e9-9457-a7b3b7e9fb3c.png)
 
