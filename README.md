@@ -17,3 +17,5 @@ commands-readmeにhands-on資料ある。
 Learn structure of Docker and you can use basic image, container, docker hub etc.
 
 ### Let' try (JP)
+
+[docker-hands-on(basic)_new.pdf](https://github.com/jeayoon/docker-hands-on/files/3245426/docker-hands-on.basic._new.pdf)
