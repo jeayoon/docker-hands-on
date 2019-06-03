@@ -37,7 +37,7 @@ $ docker tag {IMAGE_ID} {DOCKER_HUB_USERNAME}/{REPOSITORY_NAME}:{TAG}
 
 ```
 # 例としてPHP(Dockerfileで作ったもの)をpushしてみましょ
-$ ocker push {DOCKER_HUB_USERNAME}/{REPOSITORY_NAME}
+$ docker push {DOCKER_HUB_USERNAME}/{REPOSITORY_NAME}
 ```
 
 #### 6. Docker Hubにpushした container & image 削除
