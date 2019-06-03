@@ -6,10 +6,11 @@
 
 commands-readmeにhands-on資料ある。
 下記の手順で行ってください。
-1. 1_php_readme
-2. 2_mysql-readme
-3. 3_php-mysql-readme
-4. 4_docker-hub-readme
+1. 1_hello-world-readme
+2. 2_php-readme
+3. 3_mysql-readme
+4. 4_php-mysql-readme
+5. 5_docker-hub-readme
 
 ### Purpose
 
