@@ -54,7 +54,8 @@ $ docker container exec -it {containerID or NAMES} bash
 
 #### 6. 初期データ投入されたのかを確認
 ```
-$ mysql –p{PW}
+$ mysql –p
+$ password {PW}
 mysql > USE test;
 mysql > SELECT * FROM test;
 +---------+
@@ -113,7 +114,8 @@ $ docker container exec -it {containerID or NAMES} bash
 
 #### 14. 初期データ投入されたのかを確認
 ```
-$ mysql –p{PW}
+$ mysql –p
+$ password {PW}
 mysql > USE test;
 mysql > SELECT * FROM test;
 +---------+
@@ -133,7 +135,8 @@ $ docker container run --mount type=volume,src={VOLUME_NAME},dst=/var/lib/mysql 
 
 $ docker container exec -it {containerID or NAMES} bash
 
-$ mysql –p{PW}
+$ mysql –p
+$ password {PW}
 mysql > USE test;
 mysql > SELECT * FROM test;
 +---------+
