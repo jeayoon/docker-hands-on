@@ -57,18 +57,12 @@ $ docker container run -p 80:80 --mount type=bind,src={LOCAL_HOST_PATH},dst=/var
 $ docker container run --mount type=volume,src={VOLUME_NAME},dst=/var/lib/mysql --name mysql --network {NETWORK_NAME} -p 4306:3306 -e MYSQL_ROOT_PASSWORD=fusic -d mysql:5.7
 ```
 
-#### 8. network確認
-
-```
-$ docker network inspect {NETWORK_NAME}
-```
-
-#### 9. Docker network 確認
+#### 8. Docker network 確認
 ```
 $ docker network inspect {NETWORK_NAME}
 ```
 
-#### 10. PHPにDB情報出力
+#### 9. PHPにDB情報出力
 ```
 $ vi {LOCAK_HOST_PATH}/info.php
 
@@ -82,5 +76,5 @@ var_dump($st->fetchAll());
 
 ```
 
-#### 11.ブラウザで確認 (locakhost IP:port/info.php)
+#### 10.ブラウザで確認 (locakhost IP:port/info.php)
 
