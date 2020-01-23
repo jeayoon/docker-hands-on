@@ -41,7 +41,7 @@ $ docker network create {NETWORK_NAME}
 #### 5. Docker network 一覧
 
 ```
-$ docker network create ls
+$ docker network ls
 ```
 
 #### 6. Docker network + php:customを起動
